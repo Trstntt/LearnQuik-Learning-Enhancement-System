@@ -21,7 +21,7 @@ $db_name = 'learnquik';
 $db_user = 'root';
 $db_pass = '';
 
-$openai_api_key = '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';
+$openai_api_key = 'OPEN_AI_API';
 
 $response = array();
 
@@ -293,4 +293,5 @@ Return ONLY valid JSON in this exact format with no additional text:
 }
 
 echo json_encode($response);
+
 ?>
